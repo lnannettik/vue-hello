@@ -6,7 +6,7 @@ const app = new Vue ({
     el: '#app',
 
     data: {
-        message: 'i limoniiiiiiiiiiiiiii!!!!!!',
+        message: 'SIGNORAAAAAAAA',
         image: './limoni_meme1.jpg',
         titleClass: 'yellow',
     },
@@ -14,7 +14,7 @@ const app = new Vue ({
     methods: {
         // change color function()
         changeColor() {
-            this.titleClass = this.titleClass === 'yellow' ? 'green': 'yellow';
+            this.titleClass = this.titleClass === 'yellow' ? 'black': 'yellow';
         }
     }
 });
